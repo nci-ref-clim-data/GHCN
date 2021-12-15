@@ -30,16 +30,12 @@ We've downloaded GHCN data to:
 
 The files are ascii format: `YYYY.csv`
 
-The files format is described in `/g/data/ia39/ghcn/replica/code/ghcn-daily-by_year-format.rtf` 
-
-TODO: Follow the link below - it refers to a README that might have thesame information as the rtf file.
+The files format is described in `/g/data/ia39/ghcn/replica/code/ghcn-daily-by_year-format.txt` 
 
 ## License
 
 Data is freely available but there are restrictions on commercial use, from their
 [data access policy](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily):
-
-TODO: Follow that link and update the license information.
 
 "Some of the data provided here are based on data exchanged under the World Meteorological Organization (WMO)
 World Weather Watch Program according to WMO Resolution 40 (Cg-XII).
@@ -50,7 +46,7 @@ are intended for free and unrestricted use in research, education, and other non
 For non-U.S. locations, the data or any derived product shall not be provided to other users or
 be used for their re-export for commercial services."
 
-## Reference
+## References
 
 Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: 
 An overview of the Global Historical Climatology Network-Daily Database. 
