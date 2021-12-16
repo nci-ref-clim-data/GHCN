@@ -50,10 +50,29 @@ are intended for free and unrestricted use in research, education, and other non
 For non-U.S. locations, the data or any derived product shall not be provided to other users or
 be used for their re-export for commercial services."
 
+## Data citation
+
+To acknowledge the specific version of the dataset used, please cite:
+Menne MJ, Durre I, Korzeniewski B, McNeal S, Thomas K, Yin X, Anthony S, Ray R, Vose RS, Gleason BE, and Houston TG (2012).
+Global Historical Climatology Network - Daily (GHCN-Daily), Version 3.
+[indicate subset used following decimal, e.g. Version 3.12]. 
+NOAA National Climatic Data Center.
+http://doi.org/10.7289/V5D21VHZ [access date].
+
 ## References
 
-Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: 
+Menne MJ, Durre I, Vose RS, Gleason BE, and Houston TG (2012). 
 An overview of the Global Historical Climatology Network-Daily Database. 
-Journal of Atmospheric and Oceanic Technology, 29, 897-910, doi.10.1175/JTECH-D-11-00103.1.
+*Journal of Atmospheric and Oceanic Technology*, 29, 897-910.
+https://doi.org/10.1175/JTECH-D-11-00103.1
 
 https://www.ncdc.noaa.gov/ghcn-daily-references
+
+## Acknowledgement
+
+No statement provided.
+
+## Assistance
+
+For assistance with GHCN data on NCI,
+open a new issue at https://github.com/nci-ref-clim-data/GHCN/issues
