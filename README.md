@@ -52,7 +52,6 @@ be used for their re-export for commercial services."
 
 ## Data citation
 
-To acknowledge the specific version of the dataset used, please cite:
 Menne MJ, Durre I, Korzeniewski B, McNeal S, Thomas K, Yin X, Anthony S, Ray R, Vose RS, Gleason BE, and Houston TG (2012).
 Global Historical Climatology Network - Daily (GHCN-Daily), Version 3.
 [indicate subset used following decimal, e.g. Version 3.12]. 
