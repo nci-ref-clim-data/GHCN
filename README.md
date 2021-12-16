@@ -21,6 +21,10 @@ but we are updating them on a weekly basis.
 More details on how the data is organised and its status are available from the documentation files stored with the data.
 For more information on methods and data quality assurance can be found [here](https://www.ncdc.noaa.gov/ghcn-daily-methods).
 
+## Data download
+
+TODO: Explain exactly where/how the data was downloaded from.
+
 ## Data location
 
 We've downloaded GHCN data to:
