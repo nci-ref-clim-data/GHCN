@@ -36,4 +36,6 @@ today=$(date "+%Y-%m-%d")
 # using wget as we are currently only downloading from one folder
 wget -r -np -nd -S ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/
 gunzip *.gz
+mv *.txt /g/data/ia39/ghcn/replica/data/.
 echo "${today} updated by $USER" >> /g/data/ia39/ghcn/replica/code/update_log.txt
+
