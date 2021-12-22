@@ -23,7 +23,14 @@ For more information on methods and data quality assurance can be found [here](h
 
 ## Data download
 
-TODO: Explain exactly where/how the data was downloaded from.
+The data is downloaded from the NCDC NOAA ftp server
+    ftp://ftp.ncdc.noaa.gov/pub/data/ghcn
+The files are updated daily on the server
+We update them once a week.
+
+The script uses wget, to run:
+   ./ghcn_download.sh
+A record of the updates is kept in update_log.txt
 
 ## Data location
 
