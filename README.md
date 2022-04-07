@@ -36,12 +36,12 @@ A record of the updates is kept in `update_log.txt`.
 
 We've downloaded GHCN data to:
 ```
-/g/data/ia39/ghcn/replica/data/daily/by_year
+/g/data/ia39/aus-ref-clim-data-nci/ghcn/replica/data/daily/by_year
 ```
 
 The files are ascii format: `YYYY.csv`
 
-The files format is described in `/g/data/ia39/ghcn/replica/code/ghcn-daily-by_year-format.txt` 
+The files format is described in `/g/data/ia39/aus-ref-clim-data-nci/ghcn/replica/code/ghcn-daily-by_year-format.txt` 
 
 ## License
 
@@ -81,4 +81,4 @@ No statement provided.
 ## Assistance
 
 For assistance with GHCN data on NCI,
-open a new issue at https://github.com/nci-ref-clim-data/GHCN/issues
+open a new issue at https://github.com/aus-ref-clim-data-nci/GHCN/issues

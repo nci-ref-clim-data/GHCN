@@ -30,9 +30,10 @@
 # Last change:
 # 2021-12-22
 # 2022-02-01 - added mv csv to previous folder before gunzip
+# 2022-04-07 - moved directory to /g/data/ia39/aus-ref-clim-data-nci/ghcn/
 #
 
-cd /g/data/ia39/ghcn/replica/data/daily/by_year/
+cd /g/data/ia39/aus-ref-clim-data-nci/ghcn/replica/data/daily/by_year/
 today=$(date "+%Y-%m-%d")
 # using wget as we are currently only downloading from one folder
 wget -r -np -nd -S ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/
@@ -40,7 +41,7 @@ wget -r -np -nd -S ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/
 # and also we can keep a copy of last day files in case there are issues
 mv *.csv previous/.
 gunzip *.gz
-mv *.txt /g/data/ia39/ghcn/replica/data/.
-mv wget-log /g/data/ia39/ghcn/replica/code/.
-echo "${today} updated by $USER" >> /g/data/ia39/ghcn/replica/code/update_log.txt
+mv *.txt /g/data/ia39/aus-ref-clim-data-nci/ghcn/replica/data/.
+mv wget-log /g/data/ia39/aus-ref-clim-data-nci/ghcn/replica/code/.
+echo "${today} updated by $USER" >> /g/data/ia39/aus-ref-clim-data-nci/ghcn/replica/code/update_log.txt
 
