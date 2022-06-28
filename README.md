@@ -26,9 +26,9 @@ For more information on methods and data quality assurance can be found [here](h
 The data is downloaded from the NCDC NOAA ftp server:  
 ftp://ftp.ncdc.noaa.gov/pub/data/ghcn
 
-The files are updated daily on the server. We update them once a week.
+The files are updated daily on the server. We update them once a week, the automated updates are managed via the [Jenkins accessdev server](https://accessdev.nci.org.au/jenkins/job/aus-ref-clim-data-nci/job/GHCN/).
 
-The script uses wget, to run: `./ghcn_download.sh`
+The script uses wget, to run: `./ghcn.sh`
 
 A record of the updates is kept in `update_log.txt`.
 
