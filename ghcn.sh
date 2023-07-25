@@ -21,11 +21,11 @@
 # use anonymous and your email as password to connect
 # The files are updated daily on the server
 #
-# The dataset is stored in /g/data/ia39/ghcn/data/<frequency>/<product>
+# The dataset is stored in /g/data/ia39/aus-ref-clim-data-nci/ghcn/data/<frequency>/<product>
 # currently only frequency is `daily` and product `by_year`
 #
 # To run the script ./ghcn_download.sh 
-# A record of updates is kept in /g/data/ia39/ghcn/code/update_log.txt
+# A record of updates is kept in /g/data/ia39/aus-ref-clim-data-nci/ghcn/code/update_log.txt
 #
 # Last change:
 # 2021-12-22
@@ -38,7 +38,7 @@ root_dir=${AUSREFDIR:-/g/data/ia39/aus-ref-clim-data-nci}
 cd ${root_dir}/ghcn/data/daily/by_year/
 today=$(date "+%Y-%m-%d")
 # using wget as we are currently only downloading from one folder
-wget -r -np -nd -S ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/
+wget -r -nv -np -nd -S ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/
 # moving last download to previous folder as gunzip won't overwrite the existing csv
 # and also we can keep a copy of last day files in case there are issues
 mv *.csv previous/.
