@@ -14,7 +14,10 @@ jobs:
           host: ${{secrets.HOST}}
           username: ${{secrets.USER}}
           key: ${{secrets.SSH_KEY}}
-          command_timeout: 30m
+          command_timeout: 60m
           script: |
               cd /g/data/ia39/aus-ref-clim-data-nci/ghcn/code
               ./ghcn.sh
+              git add update_log.txt
+              git commit -m 'updated log'
+              git push origin
