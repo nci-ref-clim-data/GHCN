@@ -1,5 +1,7 @@
 # GHCN
 
+![workflow](https://github.com/aus-ref-clim-data-nci/GHCN/actions/workflows/ghcn.yml/badge.svg)
+
 ## Overview
 
 We have replicated the daily station precipitation data from the Global Historical Climatology Network (GHCN).
