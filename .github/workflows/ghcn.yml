@@ -15,7 +15,7 @@ jobs:
           username: ${{secrets.USER}}
           key: ${{secrets.SSH_KEY}}
           passphrase: ${{secrets.PASSPHRASE}}
-          command_timeout: 120m
+          command_timeout: 180m
           script: |
               cd /g/data/ia39/aus-ref-clim-data-nci/ghcn/code
               ./ghcn.sh
